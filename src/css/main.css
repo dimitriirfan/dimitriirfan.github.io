@@ -28,6 +28,36 @@ html, body {
   src: url("../../fonts/open_sans/OpenSans-Bold.ttf");
   font-family: opensans-bold; }
 
+h1 {
+  font-family: var(--opensans-bold);
+  font-size: 48px; }
+
+h2 {
+  font-family: var(--opensans-semibold);
+  font-weight: 400; }
+
+.main-area h1 {
+  font-size: 58px;
+  color: var(--black); }
+
+.main-area h2 {
+  font-family: var(--opensans-regular);
+  font-size: 18px; }
+
+.main-portfolio h5 {
+  font-family: var(--opensans-bold); }
+
+.main-portfolio p {
+  font-size: 18px; }
+
+.contact p {
+  color: white;
+  margin-bottom: 0;
+  padding: 0; }
+
+.contact-name {
+  font-family: var(--opensans-semibold); }
+
 .navbar-area {
   background-color: var(--white); }
 
@@ -48,13 +78,38 @@ html, body {
   text-align: center;
   text-decoration: none; }
 
+.main-portfolio .row {
+  margin-top: 5em;
+  margin-bottom: 5em; }
+
+.main-portfolio .img-thumbnail {
+  padding: 0.25rem;
+  background-color: #fff;
+  border-radius: 0.25rem;
+  max-width: 80%;
+  height: auto; }
+
+.main-portfolio .tech .card {
+  border: 1px solid var(--black); }
+
+.contact {
+  padding-top: 5em;
+  padding-bottom: 5em;
+  background-color: var(--black); }
+
+.contact .contact-item {
+  display: flex; }
+
+.contact .contact-item .fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+  margin-right: 1em;
+  color: white; }
+
 .main-area .row {
   margin: 25% 0; }
-
-.main-portfolio .row .col-lg-5 h1 {
-  margin: 25% 0; }
-
-.main-portfolio .row .col-lg-7 {
-  background-color: var(--primary-color);
-  padding: 5em;
-  color: whitesmoke; }

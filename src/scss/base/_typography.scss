@@ -1,0 +1,43 @@
+h1 { 
+    font-family: var(--opensans-bold);
+    font-size: 48px;
+}
+
+h2 { 
+    font-family: var(--opensans-semibold);
+    font-weight: 400;
+}
+
+
+
+.main-area h1 { 
+    font-size: 58px;
+    color: var(--black);
+}
+
+.main-area h2 { 
+    font-family: var(--opensans-regular);
+    font-size: 18px;
+}
+
+.main-portfolio h5 { 
+    font-family: var(--opensans-bold);
+}
+
+.main-portfolio p { 
+    font-size: 18px;
+
+}
+
+.contact p { 
+    color: white;
+   margin-bottom: 0; 
+   padding:0;
+}
+
+
+
+.contact-name { 
+    font-family: var(--opensans-semibold);
+        
+}
