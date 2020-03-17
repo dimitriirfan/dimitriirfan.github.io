@@ -10,8 +10,8 @@ html, body {
   --black:#151B25;
   --primary-color: #034687;
   --secondary-color:#DBE8E1;
-  --tertiary-color:--black
-    --unactive-color: gray;
+  --tertiary-color:#E10032;
+  --unactive-color: gray;
   --opensans-regular: 'opensans-regular';
   --opensans-semibold: 'opensans-semibold';
   --opensans-bold: 'opensans-bold'; }
@@ -50,8 +50,13 @@ h2 {
 .main-portfolio p {
   font-size: 18px; }
 
+.contact {
+  color: white; }
+
+.contact h1 {
+  margin-bottom: 1em; }
+
 .contact p {
-  color: white;
   margin-bottom: 0;
   padding: 0; }
 
@@ -86,7 +91,7 @@ h2 {
   padding: 0.25rem;
   background-color: #fff;
   border-radius: 0.25rem;
-  max-width: 80%;
+  max-width: 75%;
   height: auto; }
 
 .main-portfolio .tech .card {
@@ -110,6 +115,15 @@ h2 {
   border-radius: 50%;
   margin-right: 1em;
   color: white; }
+
+.btn {
+  border-radius: 20px;
+  padding: 0.5em 2em; }
+
+.btn-primary {
+  border: 2px solid var(--primary-color);
+  color: var(--black);
+  background-color: white; }
 
 .main-area .row {
   margin: 25% 0; }

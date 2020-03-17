@@ -1,3 +1,4 @@
+
 .main-portfolio .row {
     margin-top: 5em;
     margin-bottom: 5em; 
@@ -8,7 +9,7 @@
     padding: 0.25rem;
     background-color: #fff;
     border-radius: 0.25rem;
-    max-width: 80%;
+    max-width: 75%;
     height: auto; 
   
   }
@@ -41,3 +42,18 @@
     margin-right: 1em;
     color: white;
 }
+
+.btn { 
+    border-radius: 20px;
+    padding: 0.5em 2em;
+}
+
+.btn-primary {
+    border: 2px solid var(--primary-color);
+    color: var(--black);
+    background-color: white;
+
+}
+
+// modal
+

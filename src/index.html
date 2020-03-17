@@ -25,6 +25,7 @@
 </head>
 
 <body>
+
     <div class="container-fluid fixed-top shadow-sm p-2 mb-5 bg-white rounded" style="background-color: white;">
         <div class="container ">
             <header class="navbar-area">
@@ -51,20 +52,20 @@
 
                                 <li class="nav-item">
 
-                                    <a class="nav-link" href="#">Skills</a>
+                                    <a class="nav-link" href="#skills">Skills</a>
                                 </li>
                                 <li class="nav-item active">
-                                    <a class="nav-link" href="#home">Home <span class="sr-only">(current)</span></a>
+                                    <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
                                 </li>
 
                                 <li class="nav-item">
 
-                                    <a class="nav-link" href="#">Experiences</a>
+                                    <a class="nav-link" href="#experiences">Experiences</a>
                                 </li>
 
                                 <li class="nav-item">
 
-                                    <a class="nav-link" href="#">Contact</a>
+                                    <a class="nav-link" href="#contact">Contact</a>
                                 </li>
                             </ul>
                             <ul class="navbar-nav ml-auto">
@@ -100,13 +101,20 @@
                         <h2>Hello, you can call me Dimitri. I am a college student and a <h2>
                                 <h2><span><b style="color: var(--primary-color);">Junior Front End Developer</b> </span>
                                 </h2>
+                                <button id="cv-btn" type="submit" class="btn btn-primary" data-toggle="modal"
+                                    data-target="#myModal" style="margin-top: 2em;">View
+                                    CV<i class="fa fa-download" style="margin-left: 0.5em;"></i></button>
+
+
                     </div>
                     <div class="col-4"></div>
                 </div>
             </div>
-            <div class="scroll" style="padding: 0.75em 2em; border-left:2px solid var(--black); margin-bottom:5em ">
-                Scroll down
+            <div class="scroll" id="aboutme"
+                style="padding: 0.75em 2em; border-left:2px solid var(--black); margin-bottom:5em ">
+                1
             </div>
+
             <hr>
         </div>
 
@@ -121,7 +129,7 @@
                         </div>
                     </div>
                     <div class="col-lg-5 col-sm-12 " style="border-right: 2px solid var(--black); padding: 5em 3em;">
-                        <h1 id="aboutme">About Me</h1>
+                        <h1>About Me</h1>
                         <p>
                             A person with a passion to learn something new.
                             Strong logical skill, and an effective problem
@@ -132,6 +140,10 @@
                         <p>Lorem, ipsum dolor sit</p>
                     </div>
 
+                </div>
+                <div class="scroll" id="skills"
+                    style="padding: 0.75em 2em; border-left:2px solid var(--black); margin-bottom:5em ">
+                    2
                 </div>
                 <hr>
                 <div class="row d-flex align-items-center">
@@ -146,7 +158,7 @@
                     </div>
                     <div class="col-lg-7">
                         <div class="tech">
-                            <div class="row row-cols-1 row-cols-md-3">
+                            <div class="row row-cols-3 row-cols-md-3">
                                 <div class="col mb-4">
                                     <div class="card h-100">
                                         <div class="card-body">
@@ -236,8 +248,12 @@
 
                     </div>
 
-
                 </div>
+                <div class="scroll" id="experiences"
+                    style="padding: 0.75em 2em; border-left:2px solid var(--black); margin-bottom:5em ">
+                    3
+                </div>
+                <hr>
 
                 <div class="row">
                     <div class="col-lg-12 col-sm-12">
@@ -246,7 +262,7 @@
 
                     <div class="row row-cols-1 row-cols-md-3">
                         <div class="col mb-4">
-                            <div class="card h-100 shadow p-5 mb-5 bg-white rounded">
+                            <div class="card h-100 shadow p-5 mb-0 bg-white rounded">
                                 <img src="./img/AI.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">2020 | A.I. laboratory - Lab Assistant</h5>
@@ -255,7 +271,7 @@
                             </div>
                         </div>
                         <div class="col mb-4">
-                            <div class="card h-100 shadow p-5 mb-5 bg-white rounded">
+                            <div class="card h-100 shadow p-5 mb-0 bg-white rounded">
                                 <img src="./img/iflab.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">2020 | Data Structure practicum assistant</h5>
@@ -264,7 +280,7 @@
                             </div>
                         </div>
                         <div class="col mb-4">
-                            <div class="card h-100 shadow p-5 mb-5 bg-white rounded">
+                            <div class="card h-100 shadow p-5 mb-0 bg-white rounded">
                                 <img src="./img/AI.png" class="card-img-top" alt="...">
                                 <div class="card-body">
                                     <h5 class="card-title">2019 | A.I. laboratory - CV & NLP Training</h5>
@@ -274,15 +290,24 @@
                         </div>
 
                     </div>
+                    
                 </div>
-                
+                <div class="scroll" id="contact"
+                        style="padding: 0.75em 2em; border-left:2px solid var(--black); margin-bottom:5em ">
+                        4
+                    </div>
+
             </div>
+
         </div>
-        
+
+
     </div>
+
     <div class="container-fluid" style="background-color: var(--black);">
         <div class="container">
             <div class="contact">
+                <h1>Contact</h1>
                 <div class="contact-item">
                     <i class="fa fa-phone fa-lg"></i>
                     <div class="contact-details">
@@ -305,13 +330,20 @@
                         <p>dimitriirfan@gmail.com</p>
                     </div>
                 </div>
-        
-        
+
+
             </div>
 
         </div>
     </div>
-    
+    <!-- modal -->
+    <div id="myModal" class="modal fade" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+        <div class="modal-dialog">
+            <img src="./img/cv.png" style="max-width: 110%">
+
+
+        </div>
+    </div>
 
 </body>
 
