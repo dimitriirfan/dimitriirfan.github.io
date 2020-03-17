@@ -20,8 +20,10 @@
 .navbar-area .active, .nav-item:hover { 
     opacity: 1;
     font-family: var(--opensans-semibold);
+    color: var(--primary-color)
 
 }
+
 
 .navbar-area .fa {
     font-size: 25px;
@@ -29,3 +31,5 @@
     text-align: center;
     text-decoration: none;
 }
+
+

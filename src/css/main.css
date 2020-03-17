@@ -7,9 +7,9 @@ html, body {
   font-family: var(--opensans-regular); }
 
 :root {
-  --black:#1d1d1d;
-  --primary-color: red;
-  --secondary-color:white;
+  --black:#151B25;
+  --primary-color: #034687;
+  --secondary-color:#DBE8E1;
   --tertiary-color:--black
     --unactive-color: gray;
   --opensans-regular: 'opensans-regular';
@@ -39,7 +39,8 @@ html, body {
 
 .navbar-area .active, .nav-item:hover {
   opacity: 1;
-  font-family: var(--opensans-semibold); }
+  font-family: var(--opensans-semibold);
+  color: var(--primary-color); }
 
 .navbar-area .fa {
   font-size: 25px;
@@ -54,6 +55,6 @@ html, body {
   margin: 25% 0; }
 
 .main-portfolio .row .col-lg-7 {
-  background-color: red;
+  background-color: var(--primary-color);
   padding: 5em;
   color: whitesmoke; }
