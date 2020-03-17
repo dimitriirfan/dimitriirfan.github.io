@@ -1,6 +1,6 @@
 # portfolio-website
 
-## Installation 
+## Installation (run locally)
 * download node.js 
 * npm init 
 * npm install
