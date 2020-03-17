@@ -1,0 +1,31 @@
+.navbar-area { 
+    background-color: var(--white);
+}
+
+.navbar-area .navbar-brand {
+}
+
+.navbar-area .navbar-nav .nav-item .nav-log { 
+}
+
+.navbar-area .nav-item {
+    opacity: 0.6;
+    transition: 0.7s;
+    margin-left: 1.5em;
+    font-family: var(--opensans-semibold);
+
+
+}
+
+.navbar-area .active, .nav-item:hover { 
+    opacity: 1;
+    font-family: var(--opensans-semibold);
+
+}
+
+.navbar-area .fa {
+    font-size: 25px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+}
