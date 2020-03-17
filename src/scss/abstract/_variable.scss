@@ -1,12 +1,5 @@
 
-html, body {
-    scroll-behavior: smooth;
-    margin: 0%;
-    box-sizing: border-box;
-    width: 100%;
-    height: 100%;
-    font-family: var(--opensans-regular);
-}
+
 
 :root {
     --black:#151B25;
@@ -14,7 +7,16 @@ html, body {
     --secondary-color:#DBE8E1;
     --tertiary-color:#E10032;
     --unactive-color: gray;
-    --opensans-regular: 'opensans-regular';
-    --opensans-semibold: 'opensans-semibold';
-    --opensans-bold: 'opensans-bold';
+    --opensans-regular: 'opensansRegular';
+    --opensans-semibold: 'opensansSemibold';
+    --opensans-bold: 'opensansBold';
+}
+
+html, body {
+    scroll-behavior: smooth;
+    margin: 0%;
+    box-sizing: border-box;
+    width: 100%;
+    height: 100%;
+    font-family: var(--opensans-regular);
 }

@@ -1,14 +1,24 @@
 @font-face {
   src: url("../fonts/open_sans/OpenSans-Regular.ttf");
-  font-family: opensans-regular; }
+  font-family: opensansRegular; }
 
 @font-face {
   src: url("../fonts/open_sans/OpenSans-SemiBold.ttf");
-  font-family: opensans-semibold; }
+  font-family: opensansSemibold; }
 
 @font-face {
   src: url("../fonts/open_sans/OpenSans-Bold.ttf");
-  font-family: opensans-bold; }
+  font-family: opensansBold; }
+
+:root {
+  --black:#151B25;
+  --primary-color: #034687;
+  --secondary-color:#DBE8E1;
+  --tertiary-color:#E10032;
+  --unactive-color: gray;
+  --opensans-regular: 'opensansRegular';
+  --opensans-semibold: 'opensansSemibold';
+  --opensans-bold: 'opensansBold'; }
 
 html, body {
   scroll-behavior: smooth;
@@ -17,16 +27,6 @@ html, body {
   width: 100%;
   height: 100%;
   font-family: var(--opensans-regular); }
-
-:root {
-  --black:#151B25;
-  --primary-color: #034687;
-  --secondary-color:#DBE8E1;
-  --tertiary-color:#E10032;
-  --unactive-color: gray;
-  --opensans-regular: 'opensans-regular';
-  --opensans-semibold: 'opensans-semibold';
-  --opensans-bold: 'opensans-bold'; }
 
 h1 {
   font-family: var(--opensans-bold);
