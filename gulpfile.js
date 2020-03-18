@@ -22,8 +22,8 @@ gulp.task('serve', gulp.series('sass', () => {
         server: './src'
     });
 
-    gulp.watch('src/scss/*.scss', gulp.series('sass')); 
+    gulp.watch('src/scss/**/*.scss', gulp.series('sass')); 
     gulp.watch('src/*.html').on('change', browserSync.reload);
 }));
 
-gulp.task('default', gulp.series('serve')) 
+gulp.task('default', gulp.series('serve')); 
