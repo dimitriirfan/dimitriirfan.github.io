@@ -1,2 +1,6 @@
-import React from "react" 
-import ReactDOM from "react-dom"
+$(document).ready(function(){
+    $(".nav-link").click(function(){
+        $('.navbar-collapse').collapse('hide');
+
+    })
+})
