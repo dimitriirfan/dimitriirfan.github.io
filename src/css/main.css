@@ -10,24 +10,6 @@
   src: url("../fonts/open_sans/OpenSans-Bold.ttf");
   font-family: opensansBold; }
 
-:root {
-  --black:#151B25;
-  --primary-color: #034687;
-  --secondary-color:#DBE8E1;
-  --tertiary-color:#E10032;
-  --unactive-color: gray;
-  --opensans-regular: 'opensansRegular';
-  --opensans-semibold: 'opensansSemibold';
-  --opensans-bold: 'opensansBold'; }
-
-html, body {
-  scroll-behavior: smooth;
-  margin: 0%;
-  box-sizing: border-box;
-  width: 100%;
-  height: 100%;
-  font-family: var(--opensans-regular); }
-
 h1 {
   font-family: var(--opensans-bold);
   font-size: 48px; }
@@ -62,6 +44,24 @@ h2 {
 
 .contact-name {
   font-family: var(--opensans-semibold); }
+
+:root {
+  --black:#151B25;
+  --primary-color: #034687;
+  --secondary-color:#DBE8E1;
+  --tertiary-color:#E10032;
+  --unactive-color: gray;
+  --opensans-regular: 'opensansRegular';
+  --opensans-semibold: 'opensansSemibold';
+  --opensans-bold: 'opensansBold'; }
+
+html, body {
+  scroll-behavior: smooth;
+  margin: 0%;
+  box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  font-family: var(--opensans-regular); }
 
 .navbar-area {
   background-color: var(--white); }
@@ -127,3 +127,35 @@ h2 {
 
 .main-area .row {
   margin: 25% 0; }
+
+.icon-bar {
+  width: 22px;
+  height: 2px;
+  background-color: var(--black);
+  display: block;
+  transition: all cubic-bezier(0.35, 0.4, 0.27, 1.55) 0.35s;
+  margin-top: 4px; }
+
+.navbar-toggler {
+  border: none;
+  background: transparent !important; }
+
+.navbar-toggler .top-bar {
+  transform: rotate(45deg);
+  transform-origin: 10% 10%; }
+
+.navbar-toggler .middle-bar {
+  opacity: 0; }
+
+.navbar-toggler .bottom-bar {
+  transform: rotate(-45deg);
+  transform-origin: 10% 90%; }
+
+.navbar-toggler.collapsed .top-bar {
+  transform: rotate(0); }
+
+.navbar-toggler.collapsed .middle-bar {
+  opacity: 1; }
+
+.navbar-toggler.collapsed .bottom-bar {
+  transform: rotate(0); }
